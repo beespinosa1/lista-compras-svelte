@@ -22,13 +22,7 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+
 
 h1 {
   font-size: 3.2em;
@@ -76,4 +70,51 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.shopping-list {
+  background-color: #f2f2f2;
+  padding: 10px;
+  list-style: none;
+  text-align: left;
+  margin: auto; /* Centra horizontalmente */
+  margin-top: 20px; /* Ajusta el margen superior */
+  margin-bottom: 20px; /* Ajusta el margen inferior */
+}
+
+.shopping-list li {
+  margin-bottom: 5px;
+  display: flex; /* Usa flexbox */
+  align-items: center; /* Alinea los elementos verticalmente */
+}
+
+/* Estilos para la lista de completados */
+.completed-list {
+  background-color: #f9f9f9;
+  padding: 10px;
+  list-style: none;
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.completed-list li {
+  margin-bottom: 5px;
+  display: flex; /* Usa flexbox */
+  align-items: center; /* Alinea los elementos verticalmente */
+}
+.btn.btn-warning {
+  background-color: #ffc107;
+  border: 1px solid #ffc107;
+  color: #fff;
+}
+
+.btn.btn-danger {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  color: #fff;
+}
+
+.btn.btn-success {
+  background-color: #28a745;
+  border: 1px solid #28a745;
+  color: #fff;
 }
